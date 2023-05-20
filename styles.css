@@ -1,0 +1,188 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #009688;
+    color: #ffffff;
+}
+
+header img {
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.6em;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #009688;
+    text-align: center;
+    color: #ffffff;
+}
+.room {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #009688;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #343a40;
+    margin-top: 20px;
+}
+
+.hotel-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.hotel-images img {
+    width: calc(33% - 20px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.room img {
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+#amenities {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#amenities h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+#amenities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#amenities li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+#amenities li:last-child {
+    border-bottom: none;
+}
+
+#contact {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#contact h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+#contact .contact-info h3 {
+    font-size: 1.2em;
+    color: #009688;
+    margin-top: 20px;
+}
+
+#contact .contact-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: calc(33% - 20px);
+}
+
+.footer-section h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section img {
+    height: 40px;
+    width: 40px;
+}
