@@ -1,9 +1,7 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
     color: #333;
+    line-height: 1.6;
 }
 
 header {
@@ -11,12 +9,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #009688;
-    color: #ffffff;
+    background-color: #f8f9fa;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header img {
-    height: 60px;
+    height: 50px;
 }
 
 nav ul {
@@ -31,8 +29,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #333;
     font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #007bff;
 }
 
 main {
@@ -53,30 +55,32 @@ h2 {
     padding-bottom: 10px;
 }
 
-footer {
-    padding: 20px;
-    background-color: #009688;
-    text-align: center;
-    color: #ffffff;
-}
-.room {
-    border-radius: 10px;
-    background-color: #f8f9fa;
-    margin-bottom: 20px;
-    padding: 15px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
-}
-
 h3 {
     font-size: 1.4em;
-    color: #009688;
+    color: #333;
     margin-bottom: 10px;
 }
 
 h4 {
     font-size: 1.2em;
-    color: #343a40;
+    color: #333;
     margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    color: #666;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.room {
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .hotel-images {
@@ -87,24 +91,24 @@ h4 {
 
 .hotel-images img {
     width: calc(33% - 20px);
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .room img {
     width: 100%;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
 #amenities {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #amenities h2 {
-    color: #343a40;
+    color: #333;
     margin-bottom: 20px;
 }
 
@@ -125,20 +129,20 @@ h4 {
 }
 
 #contact {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #contact h2 {
-    color: #343a40;
+    color: #333;
     margin-bottom: 20px;
 }
 
 #contact .contact-info h3 {
     font-size: 1.2em;
-    color: #009688;
+    color: #333;
     margin-top: 20px;
 }
 
@@ -148,11 +152,12 @@ h4 {
 }
 
 footer {
-    background-color: #343a40;
-    color: #fff;
+    background-color: #f8f9fa;
+    color: #666;
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .footer-section {
@@ -174,7 +179,7 @@ footer {
 }
 
 .footer-section ul li a {
-    color: #fff;
+    color: #666;
     text-decoration: none;
 }
 
@@ -185,4 +190,5 @@ footer {
 .footer-section img {
     height: 40px;
     width: 40px;
+    filter: grayscale(100%);
 }
